@@ -41,11 +41,13 @@ print(sum_of_mylist(45,78,90))
    
 # Write a Python function that takes a list of integers as input and returns a new list with all the even numbers removed.
 def list_nums(nums):
-empty=()
-for i in list:
-    if i i%:
-        list.remove(i)
-        print(list)
+    empty=()
+    for i in list:
+        if i%2 != 0:
+            empty.append(i)
+    return(list)
+print(list_nums([1,2,3,4,5,6]))
+
 # Write a Python function that takes a list of integers as input and returns the highest value in the list.
 heighst=[150,60,60,500,230]
 largest=int()
@@ -55,9 +57,6 @@ for large in heighst:
         print(largest)
 
 # Write a Python function that takes a list of strings as input and returns a new list with all the strings capitalized.
-def toUpper(x):
-    o=ord(x)
-    if o >= 97:
-        return chr(o-32)
-    else:
-        return x
+def country(countries):
+    return [country.capitalize()for i in countries]
+print(country(["kenya","uganda","tanzania"]))
